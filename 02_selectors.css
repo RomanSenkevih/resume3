@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&family=Lobster&family=Roboto&display=swap');
+
+
+* {
+margin: 0;
+padding: 0;
+}
+
+
+ .container {
+    max-width: 750px;
+    margin: auto;
+    padding-top: 30px;
+     } 
+     .avatar {
+        /* padding-left: ; */
+        width:200px;
+        box-shadow: 8px 8px 14px rgba(0, 0, 0, 0.25);
+        border-radius: 20px; 
+    } 
+
+body {
+  font-family:"Lobster", sans-serif;
+  font-size: 18px; 
+  font-weight: normal; 
+background:rgba(107,213,191,1)  ;
+/* padding-left: 200px; */
+
+}
+h1, h2, h3 { 
+    color: yellow;
+}
+.work {
+    color: yellow;
+}
+h3 {
+    margin: 10px;
+}
+
+.card {
+font-size: 17px;
+border-style: none;
+/* border-width:20px; */
+/* padding-left: 30px; */
+padding: 15px 20px 15px 20px;
+margin: 10px;
+border-radius: 20px;
+background-color:rgb(49, 181, 154)
+}
+
+a:hover {
+    opacity: .8;
+}
+a:visited{
+    color: rgb(114, 12, 70);
+}
+a {
+    text-decoration: none;
+    padding: 10px;
+
+}
+
+       .courses, a {
+
+        color: blue;
+       }
+
+ol, ul {
+    padding-left:20px;  
+}
+/* .forma {
+    padding: 10px 30px 50px 30px;  
+} */
+h2, h1 {
+    margin: 10px;
+}
+.info {
+   margin: 10px;
+   display: flex; 
+}
+
+@media( max-width: 530px)
+{
+    .info {
+       display: block;
+       text-align: center;
+     }
+   
+}
+
+.info-text, p {
+    font-style: italic ;
+    font-weight:bold ;
+    text-transform: capitalize;
+    text-align: center;
+    margin-left: 20px;
+  
+}
+
+/* .info-text { */
+    /* /* padding-left:  */
+.btn {
+    font-family: inherit;
+    border-radius: 15px;
+    padding: 15px 30px;
+    color: #fff;
+    font-size: 17px;
+    border: none;
+    /* cursor: pointer; */
+    text-align: center;
+    background: blue;
+    box-shadow: 8px 8px 14px rgba(0, 0, 0, 0.25);
+    /* display: block; */
+}
+.btn:hover {
+    opacity:0.8 ;
+    color: blue;
+}
+h2 {
+    text-align: center;
+    padding-bottom: 15px;
+}
+.forma1 {
+    /* text-align: center; */
+    background: rgb(49, 181, 154);
+    margin: 10px;
+    border-radius: 20px;padding: 15px;
+}
+.hobby {
+    list-style: none;
+        margin: 0;
+    padding: 0;
+        
+}
+
+.work  {
+    margin: 0;
+        /* padding-right: 10px; */
+        color: black;
+        font-size: 17px;
+width: 100%;
+
+}
+@media( max-width: 330px) {
+.work  {
+
+        font-size: 10px;
+}
+.container {
+    
+    margin: auto;
+    padding-top: 10px;
+     } 
+     .avatar {
+        
+        width:100px;
+        box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+        border-radius: 20px; 
+    } 
+    ol, ul {
+        padding-left:2px;  
+    }
+}
+.work  tr:nth-child(even) {
+    background: #eee;
+    }
+
+.courses {
+    list-style: none;
+    text-align: center;
+    
+}
+.courses li:hover {
+    background: rgb(168, 217, 207) ;
+    border-radius: 15px;
+        padding:5px ;
+        
+
+    }
+        
+    
+.hobby li:nth-child(odd) {
+    background: #eee;
+    /* padding-left: 20px; */
+    border-radius: 5px;
+}
+
+li, td {
+    padding-left: 20px;
+}
+.yellow {
+    color: yellow;
+}
+.forma label {
+display: block;
+font-size: 17px;
+color: black;
+
+}
+.forma2 {
+margin-bottom: 10px;
+display: flex;
+}
+
+@media( max-width: 530px){
+
+    .forma2 {
+        /* margin-bottom: 10px; */
+        display: block;
+        width: 100%;
+        }
+
+}
+
+.forma2 .forma {
+display: inline-block;
+margin-right: 20px;
+width: 50%;
+}
+.forma input,  textarea  {
+    font-family: inherit;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 15px;
+    border: none;
+    border-bottom: 1px solid #eee;
+    background: transparent;
+    padding: 15px 5px 10px 5px ;
+    outline: none;
+    font-family: inherit;
+}
+
+
+
+    
